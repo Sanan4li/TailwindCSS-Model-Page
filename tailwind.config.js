@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: "Playfair Display",
-        primary: "Asap",
+        body: "Nunito",
+        logo: "Pacifico",
       },
       colors: {
         secondary: "#373737",
