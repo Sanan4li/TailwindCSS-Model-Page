@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
 
 /* @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"); */
@@ -886,7 +886,7 @@ video {
 }
 
 .font-logo{
-  font-family: Pacifico;
+  font-family: Quattrocento;
 }
 
 .text-4xl{
@@ -919,6 +919,10 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.capitalize{
+  text-transform: capitalize;
 }
 
 .text-white{

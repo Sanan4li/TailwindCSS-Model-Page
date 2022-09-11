@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: "Nunito",
-        logo: "Pacifico",
+        logo: "Quattrocento",
       },
       colors: {
         secondary: "#373737",
