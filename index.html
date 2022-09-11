@@ -10,7 +10,8 @@
   <body class="">
     <header
       id="header"
-      class="custom-img flex min-h-screen justify-center bg-white bg-cover bg-fixed bg-center"
+      style="background-image: url(images/5.jpg)"
+      class="flex min-h-screen justify-center bg-white bg-cover bg-fixed bg-center"
     >
       <div class="mx-auto h-auto min-w-full">
         <div class="flex items-center justify-between space-x-4 lg:space-x-10">
@@ -37,7 +38,7 @@
                   <h3
                     class="my-2 text-2xl font-semibold text-gray-100 md:text-4xl"
                   >
-                    I am John Doe
+                    I am Lorenz
                   </h3>
                   <div class="lg:max-w-3xl">
                     <div
@@ -52,10 +53,10 @@
       </div>
     </header>
     <div class="flex min-h-screen w-full flex-col md:flex-row">
-      <div class="min-h-full w-full md:w-1/2">
+      <div class="max-h-screen min-h-full w-full md:w-1/2">
         <img
-          src="https://picsum.photos/800/800"
-          class="h-full min-h-full object-cover"
+          src="images/IMG-20220831-WA0016.jpg"
+          class="h-full min-h-full w-full object-cover"
           alt=""
         />
       </div>
@@ -70,35 +71,31 @@
           >
             <div class="flex items-center border-l border-black px-4">
               <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="ml-2"> 1,90 cm / 6.2 ft</span>
             </div>
             <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="font-semibold"> Weight : </span>
+              <span class="ml-2"> 85 kg / 187 lbs</span>
             </div>
             <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="font-semibold"> Suit : </span>
+              <span class="ml-2"> 42</span>
             </div>
             <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="font-semibold"> Waist : </span>
+              <span class="ml-2"> 32</span>
             </div>
             <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="font-semibold"> Eye Color : </span>
+              <span class="ml-2"> Blue</span>
             </div>
             <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="font-semibold"> Hair : </span>
+              <span class="ml-2"> Brown </span>
             </div>
             <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
-            </div>
-            <div class="flex items-center border-l border-black px-4">
-              <span class="font-semibold"> Height : </span>
-              <span class="ml-2"> 190 cm</span>
+              <span class="font-semibold"> Shoes : </span>
+              <span class="ml-2"> 44/45 EU</span>
             </div>
           </div>
         </div>
@@ -108,27 +105,45 @@
       <div class="relative m-auto">
         <div class="fade mySlides hidden min-h-[300px]">
           <img
-            src="https://picsum.photos/800/800"
-            class="max-h-screen min-h-full w-full md:h-full"
+            src="images/4.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
           />
         </div>
 
         <div class="fade mySlides hidden min-h-[300px]">
           <img
-            src="https://via.placeholder.com/800x800"
-            class="max-h-screen min-h-full w-full md:h-full"
+            src="images/5.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
           />
         </div>
 
         <div class="fade mySlides hidden min-h-[300px]">
           <img
-            src="https://picsum.photos/800/800"
-            class="max-h-screen min-h-full w-full md:h-full"
+            src="images/6.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+        <div class="fade mySlides hidden min-h-[300px]">
+          <img
+            src="images/2.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+        <div class="fade mySlides hidden min-h-[300px]">
+          <img
+            src="images/1.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
+          />
+        </div>
+        <div class="fade mySlides hidden min-h-[300px]">
+          <img
+            src="images/3.jpg"
+            class="max-h-screen min-h-full w-full object-top md:h-full"
           />
         </div>
 
         <a
-          class="absolute bottom-10 left-10 mx-3 -mt-6 w-auto cursor-pointer bg-gray-300/40 p-2 font-bold text-white"
+          class="absolute bottom-10 left-10 mx-3 -mt-6 w-auto cursor-pointer bg-gray-900/40 p-2 font-bold text-white"
           onclick="plusSlides(-1)"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +161,7 @@
           </svg>
         </a>
         <a
-          class="absolute bottom-10 left-24 mx-3 -mt-6 w-auto cursor-pointer bg-gray-300/40 p-2 font-bold text-white"
+          class="absolute bottom-10 left-24 mx-3 -mt-6 w-auto cursor-pointer bg-gray-900/40 p-2 font-bold text-white"
           onclick="plusSlides(1)"
         >
           <svg
@@ -168,7 +183,7 @@
     </div>
     <div class="relative max-h-screen w-full overflow-hidden">
       <img
-        src="https://picsum.photos/800/900"
+        src="images/IMG-20220831-WA0017.jpg"
         class="max-h-screen w-full object-cover"
         alt=""
       />
